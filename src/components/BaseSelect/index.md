@@ -3,6 +3,8 @@ title: BaseSelect 选择
 ---
 ## BaseSelect 组件
 
+用法和antd的select 组件一样，BaseSelect可以自定义数据。
+
 场景一：数据为枚举对象
 
 ```jsx
@@ -20,7 +22,6 @@ export default () => {
 
 ```
 场景二：数据为数组，需要dataFormat转换
-
 
 ```jsx
 import React from 'react';
