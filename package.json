@@ -1,5 +1,19 @@
 {
   "name": "chili",
+  "version": "0.1.0",
+  "description": "基于antd封装的组件库",
+  "keywords": [
+    "react",
+    "antd lib",
+    "chili",
+    "react-component",
+    "antd component",
+    "component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/poyiding/chili"
+  },
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -35,5 +49,6 @@
   "peerDependencies": {
     "react": "^16.13.1",
     "antd": "^4.2.2"
-  }
+  },
+  "license": "MIT"
 }
