@@ -1,11 +1,11 @@
 {
-  "name": "chili",
+  "name": "chili-lib",
   "version": "0.1.0",
-  "description": "基于antd封装的组件库",
+  "description": "基于antd封装的业务组件库和工具",
   "keywords": [
     "react",
     "antd lib",
-    "chili",
+    "chili-lib",
     "react-component",
     "antd component",
     "component"

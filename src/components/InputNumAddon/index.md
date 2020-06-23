@@ -4,7 +4,7 @@ title: InputNumAddon
 
 ## InputNumAddon 组件
 
-API 和 antd 的 InputNumber 组件一样。
+自定义 InputNumber 的前缀和后缀。
 
 ```jsx
 import React from 'react';

@@ -4,7 +4,7 @@ title: BaseSelect 选择
 
 ## BaseSelect 组件
 
-API 和 antd 的 select 组件一样，BaseSelect 可以自定义数据。
+可以自定义数据和对数据 dataFormat 设置
 
 场景一：数据为枚举对象
 

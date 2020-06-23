@@ -1,6 +1,6 @@
-# antd library
+# chili-lib
 
-基于 ant-design 封装的组件。
+基于 ant-design 封装的业务组件和工具库。
 
 ## usage 使用
 
