@@ -13,7 +13,7 @@ title: EasyUpload
 ```jsx
 import React, { useState } from 'react';
 import { Button, Upload, message } from 'antd';
-import { EasyUpload } from 'chili';
+import { EasyUpload } from 'chili-lib';
 
 export default function Demo() {
   const [fileList, setFileList] = useState([]);

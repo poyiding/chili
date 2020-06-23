@@ -8,7 +8,7 @@ title: InputNumAddon
 
 ```jsx
 import React from 'react';
-import { InputNumAddon } from 'chili';
+import { InputNumAddon } from 'chili-lib';
 
 export default () => {
   return <InputNumAddon addonBefore="输入" addonAfter="元" />;

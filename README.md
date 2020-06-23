@@ -5,7 +5,7 @@
 ## usage 使用
 
 ```bash
-$ npm install chili -S
+$ npm install chili-lib -S
 ```
 
 ## contribution 贡献开发

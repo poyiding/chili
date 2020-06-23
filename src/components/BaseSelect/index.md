@@ -10,7 +10,7 @@ title: BaseSelect 选择
 
 ```jsx
 import React from 'react';
-import { BaseSelect } from 'chili';
+import { BaseSelect } from 'chili-lib';
 
 export default () => {
   const data = {
@@ -28,7 +28,7 @@ export default () => {
 
 ```jsx
 import React from 'react';
-import { BaseSelect } from 'chili';
+import { BaseSelect } from 'chili-lib';
 
 export default () => {
   const data = [
