@@ -4,3 +4,4 @@ export { default as EasyUpload } from './components/EasyUpload';
 
 // utils
 export { default as getUrlParams } from './utils/getUrlparams';
+export { default as formatMoney } from './utils/formatMoney';
