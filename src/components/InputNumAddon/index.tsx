@@ -1,7 +1,8 @@
 import React from 'react';
 import { InputNumber } from 'antd';
 import { InputNumberProps } from 'antd/lib/input-number';
-import styles from './index.less';
+import './index.less';
+// import styles from './index.less';
 
 interface InputNumAddonProps extends InputNumberProps {
   addonBefore?: string | React.ReactNode;
@@ -19,15 +20,11 @@ export default class InputNumAddon extends React.PureComponent<
   render() {
     const { addonBefore, addonAfter, style, ...restPops } = this.props;
     const addonBeforeNode = addonBefore ? (
-      <span className={`${styles.inputAddon} ${styles.addonBefore}`}>
-        {addonBefore}
-      </span>
+      <span className="inputAddon addonBefore">{addonBefore}</span>
     ) : null;
 
     const addonAfterNode = addonAfter ? (
-      <span className={`${styles.inputAddon} ${styles.addonAfter}`}>
-        {addonAfter}
-      </span>
+      <span className="inputAddon addonAfter">{addonAfter}</span>
     ) : null;
 
     const styleAddon: ObjProps = {};
@@ -44,7 +41,7 @@ export default class InputNumAddon extends React.PureComponent<
       };
     }
     return (
-      <span className={styles.addonWrapper}>
+      <span className="addonWrapper">
         {addonBeforeNode}
         <InputNumber
           {...restPops}

@@ -20,6 +20,7 @@
     "build": "father-build && node ./scripts/clean-build.js",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "test": "umi-test",
+    "test:w": "umi-test uid.test",
     "test:coverage": "umi-test --coverage"
   },
   "main": "lib/index.js",
@@ -40,7 +41,7 @@
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.0.5",
     "del": "^5.1.0",
-    "dumi": "^1.0.25",
+    "dumi": "^1.0.33",
     "father-build": "^1.17.2",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
