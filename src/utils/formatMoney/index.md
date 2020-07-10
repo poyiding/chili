@@ -18,7 +18,8 @@ title: formateMoney
 ```js
 import { formatMoney } from 'chili-lib';
 
-const money = formatMoney(12345.67);
+formatMoney(12345.67);
+// "12,345.67"
 ```
 
 ### 参数

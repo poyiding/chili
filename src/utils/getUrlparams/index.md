@@ -11,7 +11,8 @@ title: getUrlParams
 ```js
 import { getUrlParams } from 'chili-lib';
 
-const paramsObj = getUrlParams();
+getUrlParams('/api/test?uid=123&uname=coco');
+// { uid: '123', uname: 'coco' }
 ```
 
 ### 参数
