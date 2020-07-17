@@ -58,5 +58,6 @@
     "react": "^16.13.1",
     "antd": "^4.2.2"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }

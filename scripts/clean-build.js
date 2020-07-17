@@ -1,5 +1,5 @@
-// 移除es和lib打包后的demo
+// 移除打包后dist的demos
 
 const del = require('del');
 
-del.sync(['./{es,lib}/**/demo/**']);
+del.sync(['./{dist}/**/demos']);

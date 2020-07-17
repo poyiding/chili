@@ -5,12 +5,12 @@ import { SelectValue, SelectProps } from 'antd/lib/select';
 const { Option } = Select;
 
 type dataObj = {
-  [key: string]: string | number
-}
+  [key: string]: string | number;
+};
 
-interface BaseSelectProps<T> extends SelectProps<T> {
-  data: dataObj[] | dataObj,
-  dataFormat?: dataObj
+export interface BaseSelectProps<T> extends SelectProps<T> {
+  data: dataObj[] | dataObj;
+  dataFormat?: dataObj;
 }
 
 export default function BaseSelect(props: BaseSelectProps<SelectValue>) {
@@ -39,7 +39,9 @@ export default function BaseSelect(props: BaseSelectProps<SelectValue>) {
   return (
     <Select {...rest}>
       {Object.keys(data).map(item => (
-        <Option key={item} value={item} >{data[item]}</Option>
+        <Option key={item} value={item}>
+          {data[item]}
+        </Option>
       ))}
     </Select>
   );
