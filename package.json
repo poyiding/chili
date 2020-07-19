@@ -26,7 +26,7 @@
     "build": "father-build && node ./scripts/clean-build.js",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "test": "umi-test",
-    "test:w": "umi-test uniqueArr.test",
+    "test:w": "umi-test debounce.test",
     "test:coverage": "umi-test --coverage"
   },
   "main": "lib/index.js",
