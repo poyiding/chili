@@ -23,11 +23,12 @@
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
-    "build": "father-build && node ./scripts/clean-build.js",
+    "build": "father-build",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "test": "umi-test",
     "test:w": "umi-test debounce.test",
-    "test:coverage": "umi-test --coverage"
+    "test:coverage": "umi-test --coverage",
+    "clean-demos": "node ./scripts/clean-build.js"
   },
   "main": "lib/index.js",
   "module": "es/index.js",

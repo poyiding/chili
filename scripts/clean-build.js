@@ -2,4 +2,4 @@
 
 const del = require('del');
 
-del.sync(['./{dist}/**/demos']);
+del.sync(['./dist/demos']);
