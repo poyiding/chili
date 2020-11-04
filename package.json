@@ -28,7 +28,8 @@
     "test": "umi-test",
     "test:w": "umi-test debounce.test",
     "test:coverage": "umi-test --coverage",
-    "clean-demos": "node ./scripts/clean-build.js"
+    "clean-demos": "node ./scripts/clean-build.js",
+    "eslint": "eslint --ext .tsx,.ts,.jsx --fix ./src -c .eslintrc.js"
   },
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -49,7 +50,7 @@
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.0.5",
     "del": "^5.1.0",
-    "dumi": "^1.0.33",
+    "dumi": "^1.0.35",
     "father-build": "^1.17.2",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",

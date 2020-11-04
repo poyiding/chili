@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Spin } from 'antd';
 import BaseSelect, { BaseSelectProps } from '../BaseSelect';
 import request from './request';
@@ -44,7 +44,7 @@ export default function SearchSelect(props: propsType) {
       },
       onError: err => {
         setLoading(false);
-        // eslint-disable-next-line no-unused-expressions
+        // eslint-disable-next-line @typescript-eslint/no-unused-expressions
         onError && onError(err);
       },
     });
