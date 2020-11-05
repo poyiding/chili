@@ -1,5 +1,5 @@
 ---
-title: BaseSelect 选择
+title: BaseSelect
 ---
 
 ## BaseSelect 组件

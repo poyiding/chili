@@ -2,13 +2,11 @@
 title: EasyUpload
 ---
 
-## 文件组件
+## 文件上传组件
 
 文件上传前的类型和文件大小的校验
 
 ## demo
-
-接受上传的文件类型 acceptType，以及对文件大小的限制，单位 M
 
 ```jsx
 import React, { useState } from 'react';
@@ -52,3 +50,12 @@ export default function Demo() {
   );
 }
 ```
+
+## api
+
+| 参数       | 说明                    | 类型     | 默认值 |
+| :--------- | :---------------------- | :------- | :----- |
+| acceptType | 上传的文件类型          | string[] | -      |
+| size       | 上传文件的大小(单位：M) | number   | -      |
+
+其他 api 同 antd Upload 组件
