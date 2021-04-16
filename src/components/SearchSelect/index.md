@@ -4,7 +4,7 @@ title: SearchSelect
 
 ## SearchSelect 组件
 
-搜索和远程数据结合
+基于[BaseSelect](https://chili.vercel.app/components/base-select)上，提供搜索和远程数据结合。
 
 <code src="../../demos/SeachSelect.tsx" />
 

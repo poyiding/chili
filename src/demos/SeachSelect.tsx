@@ -10,9 +10,9 @@ export default function Demo() {
     <SearchSelect
       url="https://randomuser.me/api/"
       searchKey="results"
-      dataObjKey="results"
       dataFormat={{ key: 'phone', value: 'email' }}
       onChange={handleChange}
+      formatResult={(response: any) => response.results}
       allowClear
       style={{ width: 300 }}
     />
