@@ -1,24 +1,40 @@
+.groupWrapper {
+  display: inline-block;
+  width: 100%;
+  text-align: start;
+  vertical-align: middle;
+}
+
 .addonWrapper {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  line-height: 1.5;
+  list-style: none;
   position: relative;
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+
   .inputAddon {
-    display: inline-block;
+    position: relative;
+    display: table-cell;
+
+    width: 1px;
+    white-space: nowrap;
+    vertical-align: middle;
+
     padding: 0 11px;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 30px;
     color: rgba(0, 0, 0, 0.65);
+    font-weight: normal;
+    font-size: 14px;
     text-align: center;
     background-color: #fafafa;
     border: 1px solid #d9d9d9;
-    border-radius: 2px;
-    vertical-align: top;
-    // :global{
-    //   .ant-select-selection {
-    //     border: none;
-    //     height: 30px;
-    //     background-color: #fafafa;
-    //   }
-    // }
+    border-radius: 4px;
   }
   .addonBefore {
     border-right: 0px;
