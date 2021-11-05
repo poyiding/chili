@@ -1,6 +1,6 @@
 import React from 'react';
 import { BaseSelect } from 'chili-lib';
-import { SelectValue } from 'antd/lib/select';
+import type { SelectValue } from 'antd/lib/select';
 
 export default function Demo() {
   const onSelect = (code: SelectValue) => {

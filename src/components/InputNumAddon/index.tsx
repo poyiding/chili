@@ -1,6 +1,6 @@
 import React from 'react';
 import { InputNumber } from 'antd';
-import { InputNumberProps } from 'antd/lib/input-number';
+import type { InputNumberProps } from 'antd/lib/input-number';
 import './index.less';
 // import styles from './index.less';
 

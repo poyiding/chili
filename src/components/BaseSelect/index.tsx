@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Select } from 'antd';
-import { SelectValue, SelectProps, LabeledValue } from 'antd/lib/select';
+import type { SelectValue, SelectProps, LabeledValue } from 'antd/lib/select';
 
 type DataObj = Record<string, string | number | boolean>;
 export interface BaseSelectProps<T> extends SelectProps<T> {

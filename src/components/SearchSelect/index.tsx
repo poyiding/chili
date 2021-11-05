@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Spin } from 'antd';
-import BaseSelect, { BaseSelectProps } from '../BaseSelect';
+import BaseSelect from '../BaseSelect';
+import type { BaseSelectProps } from '../BaseSelect';
 import request from './request';
 import debounce from '../../utils/debounce';
 

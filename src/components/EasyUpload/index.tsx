@@ -1,6 +1,6 @@
 import React from 'react';
 import { Upload, message } from 'antd';
-import { UploadProps, RcFile } from 'antd/lib/upload/interface';
+import type { UploadProps, RcFile } from 'antd/lib/upload/interface';
 
 interface EasyUploadProps extends UploadProps {
   size?: number;
