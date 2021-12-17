@@ -8,11 +8,11 @@ export default function Demo() {
 
   return (
     <SearchSelect
-      url="https://randomuser.me/api/"
-      searchKey="results"
-      dataFormat={{ key: 'phone', value: 'email' }}
+      request={async (keyWords = '') => {
+        const { results } = await fetch(`https://randomuser.me/api/?results=${keyWords}`).then(res => res.json());
+        return results?.map((item: Record<string, string>) => ({ label: item.email, value: item.phone }))
+      }}
       onChange={handleChange}
-      formatResult={(response: any) => response.results}
       allowClear
       style={{ width: 300 }}
     />
