@@ -46,8 +46,9 @@ export default function BaseSelect(props: BaseSelectProps<SelectValue>) {
     if (options) return;
     if (data && !request) {
       setOptions(dataToOptions(data, dataFormat));
+    } else {
+      fetchData();
     }
-    fetchData();
   }, [JSON.stringify(data), request]);
 
   return <Select options={optionList} {...rest} />;
