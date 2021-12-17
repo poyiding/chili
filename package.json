@@ -1,6 +1,6 @@
 {
   "name": "chili-lib",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "基于antd封装的业务组件库和工具",
   "keywords": [
     "react",
